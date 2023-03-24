@@ -2,5 +2,6 @@ import './lib/lib';
 
 
 qs('button').on('click', function() {
-    qs(this).toggleClass('active')
+    qs('div').eq(2).toggleClass('active')
 });
+
